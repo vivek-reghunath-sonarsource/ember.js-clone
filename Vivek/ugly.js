@@ -29,3 +29,9 @@ if (!"prop" in myObj) {  // Noncompliant;  "in" operator is checking property "f
 if (!foo instanceof MyClass) {  // Noncompliant; "!foo" returns a boolean, which is not an instance of anything
   doTheOtherThing();  // this block is never executed
 }
+
+function say(a, b) {
+  print(a + " " + b);
+}
+
+say("hello", "world", "!"); // Noncompliant; last argument is not used
