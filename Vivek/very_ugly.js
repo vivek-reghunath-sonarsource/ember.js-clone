@@ -35,3 +35,5 @@ function say(a, b) {
 }
 
 say("hello", "world", "!"); // Noncompliant; last argument is not used
+
+x=y;
