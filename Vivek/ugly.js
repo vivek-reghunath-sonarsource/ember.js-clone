@@ -16,6 +16,7 @@ var connection = mysql.createConnection(
 connection.connect();
 
 var myarray = [80, 3, 9, 34, 23, 5, 1];
+var anotherArray =[10,11];
 
 myarray.sort();
 console.log(myarray); // outputs: [1, 23, 3, 34, 5, 80, 9]
